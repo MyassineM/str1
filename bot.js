@@ -9,7 +9,7 @@ client.on('message', message => {
       
   if (message.content.startsWith(adminprefix + 'setg')) {
     client.user.setGame(argresult);
-      message.channel.send(`**Commands +selw / +sell / +setg / +sets / +setname / +setavatar By !                     | Yas.sine**#3327  ${argresult}**`)
+      message.channel.send(`**Commands (psetw) For Watcing/ (psetl) For Listening / (psetg) Chck The Commands/ (psets) For Streaming / (psetname) To Change The Name/ (psetavatar) To Change The Avatar  ${argresult}**`)
   } else 
      if (message.content === (adminprefix + "leave")) {
     message.guild.leave();        
